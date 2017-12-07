@@ -14,7 +14,6 @@ ALL_STACKS:=hyperkube \
 					  k8s-dns-sidecar-amd64 \
 						k8s-dns-kube-dns-amd64 \
 						kubernetes-dashboard-amd64
-
 else
 ALL_STACKS:=hyperkube \
 		        k8s-dns-dnsmasq-nanny-amd64 \
