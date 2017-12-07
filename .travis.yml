@@ -1,0 +1,11 @@
+language: generic
+
+sudo: required
+services:
+    - docker
+
+script:
+  # only build 
+    # - make build-testeall
+  # build and then push to Docker Hub
+    - make release-all
