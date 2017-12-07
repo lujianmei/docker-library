@@ -9,14 +9,14 @@ OWNER:=lujianmei
 ARCH:=$(shell uname -m)
 
 ifeq ($(ARCH),ppc64le)
-ALL_STACKS:=kubedns-amd64 \
+ALL_STACKS:=hyperkube \
 		        k8s-dns-dnsmasq-nanny-amd64 \
 					  k8s-dns-sidecar-amd64 \
 						k8s-dns-kube-dns-amd64 \
 						kubernetes-dashboard-amd64
 
 else
-ALL_STACKS:=kubedns-amd64 \
+ALL_STACKS:=hyperkube \
 		        k8s-dns-dnsmasq-nanny-amd64 \
 					  k8s-dns-sidecar-amd64 \
 						k8s-dns-kube-dns-amd64 \
